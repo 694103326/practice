@@ -5,16 +5,16 @@ import jdk.nashorn.internal.runtime.Context;
     你想知道你拥有的石头中有多少是宝石。
     J 中的字母不重复，J 和 S中的所有字符都是字母。字母区分大小写，因此"a"和"A"是不同类型的石头。
  */
-public class To_Lower_Case_709 {
+public class To_Lower_Case {
     public static void main(String[] args){
-        Solution s = new Solution();
+        Solution709 s = new Solution709();
         System.out.println(s.toLowerCase("HeLlOworlD"));
 
     }
 }
 
 //65-90之间 +32
-class Solution {
+class Solution709 {
     public String toLowerCase(String str) {
         if(str==null){
             return null;
